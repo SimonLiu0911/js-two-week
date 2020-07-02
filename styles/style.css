@@ -1,0 +1,20 @@
+body{
+    background-color: rgba(0,0,0,.03) !important;
+}
+.navbar__border {
+    border-bottom: 1px solid black;
+}
+.navbar-nav__position {
+    margin: 0 auto;
+}
+#full__frame__camera .container .category .camera__category__title {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 33.3333%;
+    margin-left: -20px;
+}
+#full__frame__camera .container .category .camera__category__content{
+    font-size: 13px;
+    display: inline-block;
+}
