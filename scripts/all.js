@@ -1,5 +1,5 @@
-let uuid = "d5ab7a96-794d-433e-9fc9-13fa71ebe3d6";
-var apiPath = 'https://course-ec-api.hexschool.io/';
+const uuid = "d5ab7a96-794d-433e-9fc9-13fa71ebe3d6";
+const apiPath = 'https://course-ec-api.hexschool.io/';
 
 
 function getData() {
@@ -19,7 +19,7 @@ function getData() {
 }
 
 function render(data) {
-    let productInform = document.getElementById('product__inform');
+    const productInform = document.getElementById('product__inform');
     let str = '';
     data.forEach(item => {
         console.log(item);
